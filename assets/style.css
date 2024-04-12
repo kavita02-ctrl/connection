@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6cad2;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+/* Container styles */
+.bg-white {
+    background-color: #3884cb;
+    padding: 2rem; /* Add padding for better spacing */
+}
+
+/* Text styles */
+.text-center {
+    text-align: center;
+}
+
+.text-gray-800 {
+    color: #333;
+}
+
+.text-gray-500 {
+    color: #666;
+}
+
+.text-lg {
+    font-size: 1.125rem; /* 18px */
+}
+
+.text-2xl {
+    font-size: 1.5rem; /* 24px */
+}
+
+/* Form styles */
+form {
+    display: grid;
+    gap: 1rem; /* Add gap between form elements */
+}
+
+/* Input styles */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 0.5rem; /* Adjust padding for better appearance */
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #f9fafb;
+    color: #333;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #6366f1;
+}
+
+/* Button styles */
+button {
+    cursor: pointer;
+    padding: 0.5rem 1rem; /* Adjust padding for better appearance */
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #6366f1;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #4f52e8;
+}
+
+/* Link styles */
+a {
+    color: #6366f1;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #4f52e8;
+}
